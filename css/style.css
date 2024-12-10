@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.fs-14px{
+    font-size: 14px;
+}
+.content-logo h6{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 13px;
+}
+.content-logo p{
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 300;
+    color: #bfc1c8;
+}
+.navbar{
+    background-color: #1E202B !important;
+    padding: 34px 0 !important;
+}
+
+.nav-link{
+    padding: 2px 15px !important;
+    color: white !important;
+    border: 2px solid transparent !important;
+    transition: 0.3s;
+    border-radius: 40px;
+    font-size: 15px;
+}
+.nav-link.active{
+    border: 2px solid #009ad8 !important;
+    color: #009ad8 !important;
+}
+.nav-link:hover{
+    border: 2px solid #009ad8 !important;
+    color: #009ad8 !important;
+}
+.navbar button{
+    border-radius: 50%;
+    padding: 15px 20px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 0 transparent !important;
+    transition: 0.3s;
+}
+.navbar button:hover{
+    border: 2px solid #009ad8 !important;
+}
+@media (max-width:991px) {
+    .nav-link,.nav-link.active{
+        text-align: center;
+    }
+}
+.form input{
+    background-color: #1E202B;
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: none;
+}
+.form input::placeholder{
+    font-size: 15px;
+    color: white;
+}
+.form input:focus{
+    color: white;
+}
+.form input:focus{
+    border: none;
+    outline: none;
+}
+.form button{
+    padding: 10px 35px;
+    background-color: #009ad8;
+    border-radius: 50px;
+    color: white;
+    position: absolute;
+    right: 5px;
+}
+.form button:hover{
+    background-color: #009ad8 !important;
+    color: white;
+}
+.content{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-color: #1E202B;
+}
+.cards .card{
+    color: #bfc1c8;
+    background-color: #323544;
+}
+.cards .card .day{
+    background-color: #2D303D;
+}
+.cards .card h2{
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+}
+@media (max-width:449px) {
+    .cards .card h2{
+        font-size: 70px;
+    }
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    margin-top: 50px;
+}
+
+footer .icons a{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E202B;
+    transition: 0.3s;
+}
+footer .icons a i{
+    font-size: 17px;
+    transition: 0.3s;
+}
+footer .icons a:hover{
+    background-color: #009ad8;
+    color: white;
+}
